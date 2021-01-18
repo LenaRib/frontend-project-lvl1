@@ -27,6 +27,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run an eslinter
-        run: |
-          npx eslint .
-          echo To test project with lint.
+        run:
+          make lint          
