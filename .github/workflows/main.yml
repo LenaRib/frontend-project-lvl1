@@ -1,1 +1,1 @@
-run: make lint
+on: make lint
