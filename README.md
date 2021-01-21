@@ -1,5 +1,8 @@
-# JavaScript terminal game
-## Status of tests:
+# Hexlet frontend project
+
+## Brain Games
+### CLI app for brain training
+
 [![Actions Status](https://github.com/LenaRib/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/LenaRib/frontend-project-lvl1/actions) [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
 ![lint](https://github.com/LenaRib/frontend-project-lvl1/workflows/lint/badge.svg?branch=main)
