@@ -8,5 +8,8 @@
 ![lint](https://github.com/LenaRib/frontend-project-lvl1/workflows/lint/badge.svg?branch=main)
 
 ### Brain Game #1. Even game
-#### Try to guess, is number even or not
-
+Try to guess, is number even or not
+```sh
+$ brain-even
+```
+[![asciicast](https://asciinema.org/a/8hwq4tY9fRw7kNrMHT6i1fcLr.svg)](https://asciinema.org/a/8hwq4tY9fRw7kNrMHT6i1fcLr)
