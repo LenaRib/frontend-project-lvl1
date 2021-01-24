@@ -3,7 +3,7 @@ import { cons } from '@hexlet/pairs';
 import { playGame } from '../index.js';
 
 const min = 1;
-const max = 20;
+const max = 100;
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 const isEven = (number) => number % 2 === 0;
