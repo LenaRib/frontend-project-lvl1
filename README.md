@@ -9,3 +9,10 @@ Try to guess, is number even or not
 $ brain-even
 ```
 [![asciicast](https://asciinema.org/a/8hwq4tY9fRw7kNrMHT6i1fcLr.svg)](https://asciinema.org/a/8hwq4tY9fRw7kNrMHT6i1fcLr)
+
+### Brain Game #2. Calc game
+What is the result of the expression?
+```sh
+$ brain-calc
+```
+[![asciicast](https://asciinema.org/a/Dsc7BYllZunHF76Ms5dSO0ab9.svg)](https://asciinema.org/a/Dsc7BYllZunHF76Ms5dSO0ab9)
