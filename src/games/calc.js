@@ -1,12 +1,13 @@
+// eslint-disable-next-line import/no-named-as-default
 import { cons } from '@hexlet/pairs';
-import playGame from '..';
+import { playGame } from '../index.js';
 
 const min = 1;
 const max = 25;
 const operations = ['+', '-', '*'];
 const description = 'What is the result of the expression?';
 
-const getQuestionAndCorrectAnswer = () => {
+const getAnswer = () => {
   const num1 = Math.floor(Math.random() * (max - min + 1)) + min;
   const num2 = Math.floor(Math.random() * (max - min + 1)) + min;
   const operationIndex = Math.floor(Math.random() * 3);
@@ -28,4 +29,4 @@ const getQuestionAndCorrectAnswer = () => {
   return cons(question, String(correctAnswer));
 };
 
-export default () => playGame(description, getQuestionAndCorrectAnswer);
+export default () => playGame(description, getAnswer);
