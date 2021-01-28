@@ -3,7 +3,7 @@ import { cons } from '@hexlet/pairs';
 import { playGame } from '../index.js';
 
 const min = 1;
-const max = 25;
+const max = 10;
 const operations = ['+', '-', '*'];
 const description = 'What is the result of the expression?';
 
