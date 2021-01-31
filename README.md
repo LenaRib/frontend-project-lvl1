@@ -17,7 +17,7 @@ $ brain-calc
 ```
 [![asciicast](https://asciinema.org/a/Dsc7BYllZunHF76Ms5dSO0ab9.svg)](https://asciinema.org/a/Dsc7BYllZunHF76Ms5dSO0ab9)
 
-### Brain Game #3. Prograssion game
+### Brain Game #3. Progression game
 What number is missing in the progression?
 ```sh
-$ brain-progrwssion
+$ brain-progression
