@@ -21,3 +21,11 @@ $ brain-calc
 What number is missing in the progression?
 ```sh
 $ brain-progression
+```
+[![asciicast](https://asciinema.org/a/388373.svg)](https://asciinema.org/a/388373)
+
+### Brain Game #4. 
+Answer "yes" if given number is prime. Otherwise answer "no".
+```sh
+$ brain-prime
+```
