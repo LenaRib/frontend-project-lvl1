@@ -1,13 +1,14 @@
 import { cons } from '@hexlet/pairs';
-import checkAnswers from '..';
+import { playGame } from '../index.js';
 
 const description = 'What number is missing in the progression?';
-
+const max = 100;
+const min = 1;
 const getRandomProgress = () => {
-  const startProgressionInt = 1;
-  const progressionStep = 2;
-  const progressionLength = 10;
-  const hiddenPosition = 0;
+  const startProgressionInt = Math.floor(Math.random() * (max - min + 1)) + min;
+  const progressionStep = Math.floor(Math.random()) + 2;
+  const progressionLength = Math.floor(Math.random() * (4)) + 5;
+  const hiddenPosition = Math.floor(Math.random() * (progressionLength - 1)) + 1;
   const correctAnswer = String(startProgressionInt + progressionStep * hiddenPosition);
   let question = '';
 
@@ -22,6 +23,4 @@ const getRandomProgress = () => {
   return cons(question.trim(), correctAnswer);
 };
 
-export default () => {
-  checkAnswers(description, getRandomProgress);
-};
+export default () => playGame(description, getRandomProgress);
