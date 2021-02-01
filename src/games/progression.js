@@ -6,8 +6,8 @@ const max = 100;
 const min = 1;
 const getRandomProgress = () => {
   const startProgressionInt = Math.floor(Math.random() * (max - min + 1)) + min;
-  const progressionStep = Math.floor(Math.random()) + 2;
-  const progressionLength = Math.floor(Math.random() * (4)) + 5;
+  const progressionStep = Math.floor(Math.random() * 4) + 2;
+  const progressionLength = Math.floor(Math.random() * 4) + 5;
   const hiddenPosition = Math.floor(Math.random() * (progressionLength - 1)) + 1;
   const correctAnswer = String(startProgressionInt + progressionStep * hiddenPosition);
   let question = '';
