@@ -1,4 +1,3 @@
-
 import { cons } from '@hexlet/pairs';
 import { playGame } from '../index.js';
 
