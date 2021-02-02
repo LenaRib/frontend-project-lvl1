@@ -31,3 +31,4 @@ $ brain-prime
 ```
 
 To win, you must give the correct answer to three questions in a row.
+[![asciicast](https://asciinema.org/a/UsnfC6UTjXWyPQyu5rEGAnl1C.svg)](https://asciinema.org/a/UsnfC6UTjXWyPQyu5rEGAnl1C)
